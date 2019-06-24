@@ -1,5 +1,12 @@
 package com.example.java;
 
+
+/**
+ * Cette classe est un POJO Java
+ * Il sera à transformer en Bean Spring via des une classe de configuration Java
+ * Ses propriétés devront être valorisées pour que le test fonctionne
+ * Est concerné par les tests ComponentJavaTestClass et MainJavaTestClass
+ */
 public class UpperJavaBeanClass {
     private int upperValue;
     private JavaBeanClass javaBeanClass;
