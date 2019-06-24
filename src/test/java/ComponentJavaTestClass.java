@@ -1,5 +1,5 @@
-import com.example.annotations.JavaComponent;
 import com.example.configuration.JavaConfiguration;
+import com.example.configuration.OtherJavaConfiguration;
 import com.example.java.JavaAnnotationBeanClass;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -8,7 +8,6 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import static junit.framework.TestCase.assertNotNull;
-import static junit.framework.TestCase.assertNull;
 
 
 /**
@@ -16,7 +15,7 @@ import static junit.framework.TestCase.assertNull;
  * Pour la faire compiler vous devez ajouter les dépendances nécessaires
  * Puis vous devrez faire passer les tests
  */
-@ContextConfiguration(classes = {JavaConfiguration.class})
+@ContextConfiguration(classes = {JavaConfiguration.class, OtherJavaConfiguration.class})
 @RunWith(SpringJUnit4ClassRunner.class)
 public class ComponentJavaTestClass {
 
