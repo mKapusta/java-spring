@@ -17,7 +17,7 @@ import static junit.framework.TestCase.assertNotNull;
  * Puis vous devrez faire passer les tests
  * Tous se basent sur de la Configuration Java
  */
-@ContextConfiguration(classes = {JavaConfiguration.class, OtherJavaConfiguration.class})
+@ContextConfiguration(classes = {JavaConfiguration.class})
 @RunWith(SpringJUnit4ClassRunner.class)
 public class MainJavaTestClass {
 
