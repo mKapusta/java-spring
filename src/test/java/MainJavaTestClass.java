@@ -70,6 +70,6 @@ public class MainJavaTestClass {
          */
         assertNotNull(upperBean);
         assertEquals(upperBean.getJavaBeanClass(), monBean2);
-        assertEquals(upperBean.getJavaBeanClass().getRandomValue(), 2);
+        assertEquals(upperBean.getJavaBeanClass().getRandomValue(), 3);
     }
 }
